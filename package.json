@@ -1,6 +1,6 @@
 {
   "name": "network-tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS network usage monitor for Linux",
   "main": "network-monitor.js",
   "scripts": {
