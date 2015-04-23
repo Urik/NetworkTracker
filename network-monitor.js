@@ -21,7 +21,7 @@ function NetworkTrafficMonitor() {
             	var lines = data.toString().split("\n");
             	lines = lines.slice(2);
             	lines.forEach(function(line) {
-            		var regex = /\s*(.*)\:\s(\d*)(\s*\d*){8}\s(\d+)/;
+            		var regex = /\s*(.*)\:\s*(\d+)(\s*\d+){7}\s*(\d+)/;
             		var matches = regex.exec(line);
             		if (matches) {
             			var name = matches[1];
